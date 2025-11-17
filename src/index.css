@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-saonara: "Saonara", serif;
+  --font-satoshi: "Satoshi", sans-serif;
+}
+
+@font-face {
+  font-family: 'Saonara';
+  src: url('./Fonts/MADE\ SAONARA\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Regular'), url('./Fonts/Satoshi-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Medium'), url('./Fonts/Satoshi-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Satoshi Bold'), url('./Fonts/Satoshi-Bold.woff') format('woff');
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 255);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
