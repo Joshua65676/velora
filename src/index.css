@@ -2,7 +2,16 @@
 
 @theme {
   --font-saonara: "Saonara", serif;
-  --font-satoshi: "Satoshi", sans-serif;
+  --font-satoshiR: "Satoshi Regular", sans-serif;
+  --font-satoshiI: "Satoshi Medium Italic", sans-serif;
+  --font-satoshiM: "Satoshi Medium",  sans-serif;
+  --color-Black: rgba(0, 0, 0, 1);
+  --color-TextBlack: rgba(0, 0, 0, 0.7);
+  --color-PBlack: rgba(0, 0, 0, 0.6);
+  --color-PryWhite: rgba(255, 255, 255, 0.1);
+  --color-SecWhite: rgba(255, 255, 255, 0.6);
+  --inset-shadow-md: inset 0px 2px 4px 0px rgba(255, 255, 255, 0.4);
+  --blur-10xs: 10px
 }
 
 @font-face {
@@ -12,22 +21,22 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Satoshi';
+  font-family: 'Satoshi Regular';
   font-style: normal;
   font-weight: normal;
   src: local('Satoshi Regular'), url('./Fonts/Satoshi-Regular.woff') format('woff');
 }
 @font-face {
-  font-family: 'Satoshi';
+  font-family: 'Satoshi Medium';
   font-style: normal;
   font-weight: normal;
   src: local('Satoshi Medium'), url('./Fonts/Satoshi-Medium.woff') format('woff');
 }
 @font-face {
-  font-family: 'Satoshi';
+  font-family: 'Satoshi Medium Italic';
   font-style: normal;
   font-weight: normal;
-  src: local('Satoshi Bold'), url('./Fonts/Satoshi-Bold.woff') format('woff');
+  src: local('Satoshi Medium Italic'), url('./Fonts/Satoshi-MediumItalic.woff') format('woff');
 }
 
 :root {
@@ -37,7 +46,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 255);
-  background-color: #242424;
+  background-color: #fbfafa;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -52,3 +61,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+
+/* backdrop-filter: blur(10px) */
+
+/* box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.4) inset; */
+
