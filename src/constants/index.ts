@@ -1,4 +1,4 @@
-import { Frame3, Frame4, Frame5 } from "../assets"
+import { Frame3, Frame4, Frame5, Vault1, Vault2, Vault3, Vault4, Vault5, Vault6 } from "../assets"
 
 export const MenuList = [
     {id: 1, name: "Model", link: "/"},
@@ -19,4 +19,13 @@ export const NurtureImg = [
     {id: 1, image: Frame3},
     {id: 2, image: Frame4},
     {id: 3, image: Frame5},
+]
+
+export const VaultImg = [
+    {id: 1, image: Vault1},
+    {id: 2, image: Vault2},
+    {id: 3, image: Vault3},
+    {id: 4, image: Vault4},
+    {id: 5, image: Vault5},
+    {id: 6, image: Vault6},
 ]

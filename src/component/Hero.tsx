@@ -6,7 +6,7 @@ import Hero2 from "./Hero2";
 const Hero: React.FC = () => {
   return (
     <main className="w-374 m-2">
-      <main className="bg-[url(./assets/HeroBg.jpg)] bg-center bg-cover bg-origin-padding container mx-auto max-w-375 h-screen rounded-[10px]">
+      <main className="bg-[url(./assets/HeroBg.jpg)] bg-center bg-cover bg-origin-padding container mx-auto max-w-370 h-screen rounded-[10px]">
         <section className="container mx-auto max-w-7xl w-full py-35 px-6 flex flex-col items-center gap-47">
           <main className="flex flex-col gap-10">
             <div className="flex flex-row items-center justify-between">

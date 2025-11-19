@@ -9,6 +9,17 @@ import Frame5 from './Frame5.jpg'
 import Frame6 from './Frame6.jpg'
 import Frame7 from './Frame7.jpg'
 import Frame8 from './Frame8.jpg'
+import Frame9 from './Frame9.png'
+import ProjuctBg from './ProductBg.jpg'
+import arrowLeft from './arrowleft.png'
+import arrowRight from './arrowright.png'
+import Vault1 from './vault1.jpg'
+import Vault2 from './vault2.jpg'
+import Vault3 from './vault3.jpg'
+import Vault4 from './vault4.jpg'
+import Vault5 from './vault5.jpg'
+import Vault6 from './vault6.jpg'
+
 
 export {
     HeroBg,
@@ -21,5 +32,15 @@ export {
     Frame5,
     Frame6,
     Frame7,
-    Frame8
+    Frame8,
+    Frame9,
+    ProjuctBg,
+    arrowLeft,
+    arrowRight,
+    Vault1,
+    Vault2,
+    Vault3,
+    Vault4,
+    Vault5,
+    Vault6
 }
