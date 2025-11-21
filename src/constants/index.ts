@@ -25,7 +25,7 @@ export const VaultImg = [
     {id: 1, image: Vault1},
     {id: 2, image: Vault2},
     {id: 3, image: Vault3},
-    {id: 4, image: Vault4},
-    {id: 5, image: Vault5},
-    {id: 6, image: Vault6},
+    {id: 4, image: Vault5},
+    {id: 5, image: Vault6},
+    {id: 6, image: Vault4},
 ]

@@ -5,6 +5,7 @@ import Hero from './component/Hero'
 import Service from './component/Service'
 import Product from './component/Product'
 import Vault from './component/Vault'
+import CTA from './component/CTA'
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <Service />
       <Product />
       <Vault />
+      <CTA />
     </BrowserRouter>
   )
 }

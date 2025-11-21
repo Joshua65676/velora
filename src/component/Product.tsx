@@ -5,7 +5,7 @@ import { arrowLeft, arrowRight, Frame9 } from "../assets";
 const Product: React.FC = () => {
   return (
     <main className="py-5">
-      <main className="bg-[url(./assets/ProductBg.jpg)] bg-center bg-cover bg-origin-padding container mx-auto max-w-370 h-screen rounded-[10px]">
+      <main className="bg-[url(./assets/ProductBg.jpg)] bg-center bg-cover bg-origin-padding container mx-auto max-w-370 h-[800px] rounded-[10px]">
         <section className="container mx-auto max-w-7xl w-full h-screen py-10 px-6 flex flex-col items-center-safe justify-center-safe gap-10">
           <>
             <div className="w-[860px] h-[500px] rounded-[10px] bg-ShadowBG/50 flex items-center-safe justify-center-safe">
