@@ -29,3 +29,38 @@ export const VaultImg = [
     {id: 5, image: Vault6},
     {id: 6, image: Vault4},
 ]
+
+export const ProductList = [
+   {id: 1, name: "Features", link: "/"},
+   {id: 2, name: "Integration", link: "/"},
+   {id: 3, name: "Updates", link: "/"},
+   {id: 4, name: "FAQ", link: "/"},
+   {id: 5, name: "Pricing", link: "/"},
+]
+
+export const CompanyList = [
+    {id: 1, name: "About", link: "/"},
+    {id: 2, name: "Blog", link: "/"},
+    {id: 3, name: "Careers", link: "/"},
+    {id: 4, name: "Manifesto", link: "/"},
+    {id: 5, name: "Press", link: "/"},
+    {id: 6, name: "Contract", link: "/"},
+]
+
+export const QuickList = [
+    {id: 1, name: "Home", link: "/"},
+    {id: 2, name: "About", link: "/"},
+    {id: 3, name: "Blog", link: "/"},
+    {id: 4, name: "Archived", link: "/"},
+    {id: 5, name: "Author", link: "/"},
+    {id: 6, name: "Contract", link: "/"},
+]
+
+export const CatgoryList = [
+    {id: 1, name: "Lifestyle", link: "/"},
+    {id: 2, name: "Technology", link: "/"},
+    {id: 3, name: "Travel", link: "/"},
+    {id: 4, name: "Business", link: "/"},
+    {id: 5, name: "Economy", link: "/"},
+    {id: 6, name: "Sports", link: "/"},
+]

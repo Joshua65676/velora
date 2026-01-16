@@ -19,6 +19,7 @@ import Vault3 from './vault3.jpg'
 import Vault4 from './vault4.jpg'
 import Vault5 from './vault5.jpg'
 import Vault6 from './vault6.jpg'
+import footerLogo  from './footerLogo.png'
 
 
 export {
@@ -42,5 +43,6 @@ export {
     Vault3,
     Vault4,
     Vault5,
-    Vault6
+    Vault6,
+    footerLogo
 }
