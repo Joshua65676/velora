@@ -7,8 +7,8 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-Black h-[555px] relative flex items-center justify-center text-center">
       {/* Background layer */}
-      <div className="absolute inset-0 flex item-center justify-center text-center pt-10">
-        <h2 className="opacity-10 select-none text-white text-[354px] text-center font-saonara leading-[130%] tracking-[0%] font-[400px]">
+      <div className="absolute inset-0 flex item-center justify-center text-center">
+        <h2 className="opacity-10 select-none text-white text-[354px] flex items-center justify-center text-center font-saonara leading-[130%] tracking-[0%] font-[400px]">
           Velora
         </h2>
       </div>
