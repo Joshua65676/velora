@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
       </div>
       {/* Foreground content */}
 
-      <main className="container mx-auto max-w-6xl w-full relative xl:top-[54px] md:top-[54px] flex flex-col items-center justify-center">
+      <main className="container mx-auto max-w-6xl w-full relative top-[50px] xl:top-[54px] md:top-[54px] flex flex-col items-center justify-center">
         {/* Footer Content */}
         <main className="flex flex-row items-center justify-between w-full">
           <div className="flex flex-col gap-5 items-start text-start">
@@ -87,9 +87,9 @@ const Footer: React.FC = () => {
         </main>
         {/*  Footer Velora Logo*/}
         <section className="">
-          <div className="hidden xl:flex md:flex flex-row items-center gap-12">
-            <img src={footerLogo} alt="Velora Logo" className="" />
-            <span className="text-[180px] leading-0 tracking-0 text-white font-saonara font-[400px] pt-0 mb-0 relative top-11 bottom-0">
+          <div className="flex flex-row items-center md:gap-12 xl:gap-12">
+            <img src={footerLogo} alt="Velora Logo" className="w-35 xl:w-full md:w-full mt-12 xl:mt-0 md:mt-0" />
+            <span className="xl:text-[180px] md:text-[180px] text-[90px] leading-0 tracking-0 text-white font-saonara font-[400px] pt-0 mb-0 relative top-11 bottom-0">
               Velora
             </span>
           </div>
