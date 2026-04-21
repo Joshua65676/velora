@@ -6,13 +6,13 @@ const Collections: React.FC = () => {
   return (
     <main>
       <section className="flex flex-col gap-8">
-        <h2 className="font-saonara font-[400px] text-PBlack text-[64px] leading-[100%] tracking-[0px]">
+        <h2 className="font-saonara font-[400px] text-PBlack text-[64px] leading-[100%] tracking-[0px] w-[387px] xl:w-full md:w-full">
           Our <span className="text-Black">Collections</span>
         </h2>
 
-        <section className="flex flex-col gap-5">
+        <section className="flex flex-col xl:gap-5 md:gap-5 gap-8">
           {/* Petal Glow Foundation */}
-          <div className="flex flex-row items-center justify-between">
+          <div className="flex flex-col-reverse gap-5 md:flex-row xl:flex-row xl:items-center md:items-center justify-between">
             <div className="flex flex-col gap-2">
               <h2 className="font-saonara font-[400px] text-[32px] leading-[100%] tracking-[0px] text-Black">
                 Petal Glow Foundation
@@ -30,7 +30,7 @@ const Collections: React.FC = () => {
               <img
                 src={Frame6}
                 alt=""
-                className="w-[748px] h-[305px] rounded-[20px]"
+                className="w-[380px] xl:w-[748px] md:w-[748px] h-[305px] rounded-[20px]"
               />
               <Button className="absolute bottom-2 left-5 h-11 hover:bg-black/30 rounded-[40px] w-[280px] gap-3 bg-Black/25 border-none flex flex-row px-3">
                 <span className="text-white font-saonara font-[400px] text-[20px] leading-[100%] tracking-0">
@@ -44,12 +44,12 @@ const Collections: React.FC = () => {
           </div>
 
           {/* Lash Bloom Foundation */}
-          <div className="flex flex-row items-center justify-between">
+          <div className="flex flex-col gap-5 md:flex-row xl:flex-row xl:items-center md:items-center justify-between">
             <div className="relative">
               <img
                 src={Frame7}
                 alt=""
-                className="w-[748px] h-[305px] rounded-[20px]"
+                className="w-[380px] xl:w-[748px] md:w-[748px] h-[305px] rounded-[20px]"
               />
               <Button className="absolute bottom-2 left-5 hover:bg-black/30 h-11 rounded-[40px] w-[280px] gap-3 bg-Black/25 border-none flex flex-row px-3">
                 <span className="text-white font-saonara font-[400px] text-[20px] leading-[100%] tracking-0">
@@ -74,7 +74,7 @@ const Collections: React.FC = () => {
             </div>
           </div>
            {/* Rose Kiss Lipstick */}
-          <div className="flex flex-row items-center justify-between">
+          <div className="flex flex-col-reverse gap-5 md:flex-row xl:flex-row xl:items-center md:items-center justify-between                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ">
             <div className="flex flex-col gap-2">
               <h2 className="font-saonara font-[400px] text-[32px] leading-[100%] tracking-[0px] text-Black">
                 Rose Kiss Lipstick
@@ -92,7 +92,7 @@ const Collections: React.FC = () => {
               <img
                 src={Frame8}
                 alt=""
-                className="w-[748px] h-[305px] rounded-[20px]"
+                className="w-[380px] xl:w-[748px] md:w-[748px] h-[305px] rounded-[20px]"
               />
               <Button className="absolute bottom-2 left-5 h-11 hover:bg-black/30 rounded-[40px] w-[230px] gap-3.5 bg-Black/25 border-none flex flex-row px-3">
                 <span className="text-white font-saonara font-[400px] text-[20px] leading-[100%] tracking-0">

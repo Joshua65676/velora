@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
          <Logo />
 
          <>
-           <ul className="flex flex-row items-center justify-between gap-5 bg-SecWhite h-[47px] w-[415px] px-6 rounded-[40px]">
+           <ul className="hidden md:flex xl:flex flex-row items-center justify-between gap-5 bg-SecWhite h-[47px] w-[415px] px-6 rounded-[40px]">
             {MenuList.map(({id, name, link}) => (
               <li key={id}>
                  <Link to={link}>

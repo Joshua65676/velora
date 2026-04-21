@@ -5,12 +5,12 @@ import Hero2 from "./Hero2";
 
 const Hero: React.FC = () => {
   return (
-    <main className="w-374 m-2">
-      <main className="bg-[url(./assets/HeroBg.jpg)] bg-center bg-cover bg-origin-padding container mx-auto max-w-370 h-screen rounded-[10px]">
-        <section className="container mx-auto max-w-7xl w-full py-35 px-6 flex flex-col items-center gap-47">
+    <main className="xl:w-374 md:w-370 w-full xl:m-2">
+      <main className="bg-[url(./assets/HeroBg.jpg)] bg-center bg-cover bg-origin-padding bg-no-repeat container xl:mx-auto xl:max-w-370 xl:h-screen md:max-w-370 max-w-full rounded-[10px]">
+        <section className="container mx-auto max-w-7xl w-full py-35 px-6 flex flex-col xl:items-center gap-47">
           <main className="flex flex-col gap-10">
-            <div className="flex flex-row items-center justify-between">
-              <h2 className="font-saonara font-[400px] text-Black text-[64px] leading-[100%] tracking-0">
+            <div className="flex md:flex-row xl:flex-row flex-col xl:items-center xl:justify-between gap-5 md:gap-10">
+              <h2 className="font-saonara font-[400px] text-Black xl:w-[830px] w-[400px] text-[44px] xl:text-[64px] leading-[100%] tracking-0">
                 Where beauty blossoms naturally.
               </h2>
               <>

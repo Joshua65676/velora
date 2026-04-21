@@ -22,9 +22,9 @@ const Grid: React.FC = () => {
   }, []);
 
   return (
-    <main className="flex flex-col items-center gap-4">
+    <main className="flex flex-col xl:items-center md:items-center gap-4">
       {/* Top Row: First and Second Divs */}
-      <div className="flex gap-10">
+      <div className="flex gap-10 items-center">
         <div className="w-[200px] h-[200px] overflow-hidden rounded-[22.74px] shadow-lg">
           <motion.div
             key={shuffled[0].id}
