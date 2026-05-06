@@ -22,7 +22,7 @@ const Grid: React.FC = () => {
   }, []);
 
   return (
-    <main className="flex flex-col xl:items-center md:items-center gap-4">
+    <main className="flex flex-col xl:items-center md:items-center gap-4 items-center">
       {/* Top Row: First and Second Divs */}
       <div className="flex gap-10 items-center">
         <div className="w-[200px] h-[200px] overflow-hidden rounded-[22.74px] shadow-lg">

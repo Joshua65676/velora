@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
 
       <main className="container mx-auto max-w-6xl w-full relative top-[50px] xl:top-[54px] md:top-[54px] flex flex-col items-center justify-center">
         {/* Footer Content */}
-        <main className="flex flex-row items-center justify-between w-full">
+        <main className="flex flex-row items-center justify-between w-[480px] md:w-full">
           <div className="flex flex-col gap-5 items-start text-start">
             <h2 className="text-start font-satoshiM text-[20px] leading-[26px] tracking-[-0.01%] text-white">
               Product

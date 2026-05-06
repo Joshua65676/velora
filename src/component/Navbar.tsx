@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Logo from "./Logo";
 import { MenuList } from "../constants";
 import { Link } from "react-router-dom";
+import Sidebar from "./Sidebar";
 
 const Navbar: React.FC = () => {
   const [stickyClass, setStickyClass] = useState<boolean>(false);
@@ -25,19 +26,25 @@ const Navbar: React.FC = () => {
     >
       <main className="container mx-auto max-w-7xl w-full py-5 px-4">
         <section className="flex flex-row items-center text-center justify-between bg-PryWhite h-[62px] p-5 px-5 rounded-[40px]">
-         <Logo />
+          <Logo />
 
-         <>
-           <ul className="hidden md:flex xl:flex flex-row items-center justify-between gap-5 bg-SecWhite h-[47px] w-[415px] px-6 rounded-[40px]">
-            {MenuList.map(({id, name, link}) => (
-              <li key={id}>
-                 <Link to={link}>
-                  <span className="text-Black font-satoshiM font-medium text-[20px] leading-[100%] tracking-0">{name}</span>
-                 </Link>
-              </li>
-            ))}
-           </ul>
-         </>
+          <>
+            <ul className="hidden md:flex xl:flex flex-row items-center justify-between gap-5 bg-SecWhite h-[47px] w-[415px] px-6 rounded-[40px]">
+              {MenuList.map(({ id, name, link }) => (
+                <li key={id}>
+                  <Link to={link}>
+                    <span className="text-Black font-satoshiM font-medium text-[20px] leading-[100%] tracking-0">
+                      {name}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </>
+
+          <div className="flex md:hidden">
+            <Sidebar />
+          </div>
         </section>
       </main>
     </nav>
