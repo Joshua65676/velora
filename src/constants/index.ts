@@ -1,4 +1,22 @@
-import { Frame3, Frame4, Frame5, Vault1, Vault2, Vault3, Vault4, Vault5, Vault6 } from "../assets"
+import { 
+    Frame3,
+    Frame4,
+    Frame5,
+    Frame9,
+    Vault1,
+    Vault2,
+    Vault3,
+    Vault4,
+    Vault5,
+    Vault6,
+    Mist,
+    FaceMask,
+    Moisturize,
+    Serum,
+    Toners,
+    HeroBg,
+
+ } from "../assets"
 
 export const MenuList = [
     {id: 1, name: "Model", link: "/"},
@@ -8,11 +26,11 @@ export const MenuList = [
 ]
 
 export const HeroList = [
-    {id: 1, name: "Cleanser", style: 126},
-    {id: 2, name: "Moisturizers", style: 152},
-    {id: 3, name: "Serums", style: 114},
-    {id: 4, name: "Face masks", style: 150},
-    {id: 5, name: "Toners & mists", style: 174},
+    {id: 1, name: "Cleanser", style: 126, bg: HeroBg},
+    {id: 2, name: "Moisturizers", style: 152, bg: Moisturize},
+    {id: 3, name: "Serums", style: 114, bg: Serum},
+    {id: 4, name: "Face masks", style: 150, bg:  FaceMask},
+    {id: 5, name: "Toners & mists", style: 174, bg: Toners},
 ]
 
 export const NurtureImg = [
@@ -63,4 +81,25 @@ export const CatgoryList = [
     {id: 4, name: "Business", link: "/"},
     {id: 5, name: "Economy", link: "/"},
     {id: 6, name: "Sports", link: "/"},
+]
+
+export const Products = [
+    {id: 1,
+     image: Frame9,
+     TopSeller: "Top seller",
+     Subtitle: "Dior vernis nail polish",
+     Description: "Description",
+     Paragraph: "Dior Vernis Nail Polish offers vibrant, couture-inspired color with a long-lasting gel-shine finish that strengthens and beautifies nails in every stroke",
+     Amount: "$25",
+     button: "Buy Now"
+    },
+    {id: 2,
+     image: Mist,
+     TopSeller: "Top seller",
+     Subtitle: "Lavender Mist",
+     Description: "Description",
+     Paragraph: "Lavender Mist brings a touch of serenity and sophistication to your nails, perfect for both everyday wear and special moments.",
+     Amount: "$38",
+     button: "Buy Now"
+    }
 ]

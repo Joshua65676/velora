@@ -20,7 +20,11 @@ import Vault4 from './vault4.jpg'
 import Vault5 from './vault5.jpg'
 import Vault6 from './vault6.jpg'
 import footerLogo  from './footerLogo.png'
-
+import FaceMask from './face-masks.jpg'
+import Mist from './mist.png'
+import Moisturize from './moisturize.jpg'
+import Serum from './serums.jpg'
+import Toners from './toners.jpg'
 
 export {
     HeroBg,
@@ -44,5 +48,10 @@ export {
     Vault4,
     Vault5,
     Vault6,
-    footerLogo
+    footerLogo,
+    Mist,
+    FaceMask,
+    Moisturize,
+    Serum,
+    Toners
 }
