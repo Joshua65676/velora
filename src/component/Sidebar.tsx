@@ -14,12 +14,12 @@ const sidebarVariants = {
   visible: {
     x: 0,
     opacity: 1,
-    transition: { type: "spring", stiffness: 300, damping: 30 },
+    transition: { type: "spring" as const, stiffness: 300, damping: 30 },
   },
   exit: {
     x: "-100%",
     opacity: 0,
-    transition: { duration: 0.25, ease: "easeInOut" },
+    transition: { duration: 0.25, ease: "easeInOut" as const },
   },
 };
 
@@ -28,7 +28,7 @@ const itemVariants = {
   visible: (i: number) => ({
     x: 0,
     opacity: 1,
-    transition: { delay: i * 0.08 + 0.15, duration: 0.35, ease: "easeOut" },
+    transition: { delay: i * 0.08 + 0.15, duration: 0.35, ease: "easeOut" as const },
   }),
 };
 
@@ -110,7 +110,7 @@ export default function Sidebar() {
                     whileTap={{ scale: 0.97 }}
                   >
                     {/* Hover Background */}
-                    <span className="absolute inset-0 rounded-xl bg-white/0 group-hover:bg-white/[0.06] transition-colors duration-200" />
+                    <span className="absolute inset-0 rounded-xl bg-white/0 group-hover:bg-white/6 transition-colors duration-200" />
 
                     {/* Accent Bar */}
                     <span className="relative w-1 h-5 rounded-full bg-[#C8853A] opacity-60 group-hover:opacity-100 transition-opacity duration-200" />
