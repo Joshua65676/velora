@@ -75,7 +75,7 @@ export default function Sidebar() {
               initial="hidden"
               animate="visible"
               exit="exit"
-              className="fixed top-0 right-0 z-50 h-full w-72 flex flex-col"
+              className="fixed top-0 right-0 z-50 h-screen w-72 flex flex-col"
               style={{
                 background:
                   "linear-gradient(160deg, #5C3317 0%, #7A4828 40%, #6B4226 100%)",
