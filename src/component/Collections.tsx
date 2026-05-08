@@ -10,14 +10,14 @@ const Collections: React.FC = () => {
           Our <span className="text-Black">Collections</span>
         </h2>
 
-        <section className="flex flex-col xl:gap-5 md:gap-5 gap-8">
+        <section className="flex flex-col md:gap-5 gap-8">
           {/* Petal Glow Foundation */}
-          <div className="flex flex-col-reverse gap-5 md:flex-row xl:flex-row xl:items-center md:items-center justify-between">
+          <div className="flex flex-col-reverse gap-5 md:flex-row md:items-center justify-between">
             <div className="flex flex-col gap-2">
               <h2 className="font-saonara font-[400px] text-[32px] leading-[100%] tracking-[0px] text-Black">
                 Petal Glow Foundation
               </h2>
-              <p className="font-satoshiR w-[500px] text-[20px] leading-[130%] tracking-[0px] text-PBlack">
+              <p className="font-satoshiR w-full md:w-[500px] text-[20px] leading-[130%] tracking-[0px] text-PBlack">
                 Petal Glow Foundation offers lightweight, buildable coverage
                 that blends seamlessly, leaving skin soft, radiant, and
                 naturally flawless all day.
@@ -44,7 +44,7 @@ const Collections: React.FC = () => {
           </div>
 
           {/* Lash Bloom Foundation */}
-          <div className="flex flex-col gap-5 md:flex-row xl:flex-row xl:items-center md:items-center justify-between">
+           <div className="flex flex-col gap-5 md:flex-row xl:flex-row xl:items-center md:items-center justify-between">
             <div className="relative">
               <img
                 src={Frame7}
@@ -64,7 +64,7 @@ const Collections: React.FC = () => {
               <h2 className="font-saonara font-[400px] text-[32px] leading-[100%] tracking-[0px] text-Black">
                 Lash Bloom Foundation
               </h2>
-              <p className="font-satoshiR w-[455px] text-[20px] leading-[130%] tracking-[0px] text-PBlack">
+              <p className="font-satoshiR w-full md:w-[455px] text-[20px] leading-[130%] tracking-[0px] text-PBlack">
                 Lash Bloom Mascara delivers lifted, lengthened, and voluminous
                 lashes with a smooth, smudge-proof finish that lasts all day
               </p>
@@ -72,14 +72,14 @@ const Collections: React.FC = () => {
                 $38.50
               </span>
             </div>
-          </div>
+          </div> 
            {/* Rose Kiss Lipstick */}
           <div className="flex flex-col-reverse gap-5 md:flex-row xl:flex-row xl:items-center md:items-center justify-between                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ">
             <div className="flex flex-col gap-2">
               <h2 className="font-saonara font-[400px] text-[32px] leading-[100%] tracking-[0px] text-Black">
                 Rose Kiss Lipstick
               </h2>
-              <p className="font-satoshiR w-[450px] text-[20px] leading-[130%] tracking-[0px] text-PBlack">
+              <p className="font-satoshiR w-full md:w-[455px] text-[20px] leading-[130%] tracking-[0px] text-PBlack">
                 Rose Kiss Lipstick glides on with a creamy, velvety texture that
                 delivers rich, lasting color while keeping lips soft, hydrated,
                 and beautifully smooth.

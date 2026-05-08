@@ -21,7 +21,7 @@ const Product: React.FC = () => {
       <main className="bg-[url(./assets/ProductBg.jpg)] bg-center bg-cover bg-origin-padding bg-no-repeat container md:mx-auto md:max-w-370 max-w-full md:h-[800px] h-240 rounded-[10px]">
         <section className="container mx-auto max-w-7xl w-full h-screen py-10 px-6 flex flex-col md:items-center-safe md:justify-center-safe gap-10">
           <>
-            <div className="w-[860px] h-[500px] rounded-[10px] xl:bg-ShadowBG/50 flex xl:items-center-safe xl:justify-center-safe">
+            <div className="w-full md:w-[860px] h-[500px] rounded-[10px] xl:bg-ShadowBG/50 flex xl:items-center-safe xl:justify-center-safe">
               <div className="w-[775px] h-[450px] rounded-[10px] xl:bg-ShadowBG/50 xl:px-6 flex xl:items-center-safe xl:justify-center-safe">
                 <div
                   key={currentProduct.id}
