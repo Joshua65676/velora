@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
         <section className="container mx-auto max-w-7xl w-full py-35 px-6 flex flex-col xl:items-center gap-47">
           <main className="flex flex-col gap-10">
             <div className="flex md:flex-row xl:flex-row flex-col xl:items-center xl:justify-between gap-5 md:gap-10">
-              <h2 className="font-saonara font-[400px] text-Black xl:w-[830px] w-[450px] text-[55px] xl:text-[64px] leading-[100%] tracking-0">
+              <h2 className="font-saonara font-[400px] text-Black xl:w-[830px] w-[445px] text-[50px] xl:text-[64px] leading-[100%] tracking-0">
                 Where beauty blossoms naturally.
               </h2>
               <p className="font-satoshiI font-medium text-[20px] w-[371px] leading-[100%] tracking-[0%] text-TextBlack">

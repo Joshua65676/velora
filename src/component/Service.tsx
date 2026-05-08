@@ -12,7 +12,7 @@ const Service: React.FC = () => {
             <h2 className="font-saonara font-[400px] text-[64px] text-Black leading-[100%] tracking-[0%] w-[387px]">
               Nurture <span className="text-PBlack">Your Glow</span>
             </h2>
-            <p className="md:w-[850px] w-[451px] font-satoshiI font-light text-[20px] leading-[130%] tracking-[0%] text-PBlack">
+            <p className="md:w-[850px] w-[445px] font-satoshiI font-light text-[20px] leading-[130%] tracking-[0%] text-PBlack">
               At <span className="font-saonara font-[400px]">Velora</span>, we
               craft cosmetics that celebrate the harmony of nature and
               sophistication. Each product is designed to{" "}

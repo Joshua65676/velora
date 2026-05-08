@@ -22,7 +22,7 @@ const Product: React.FC = () => {
         <section className="container mx-auto max-w-7xl w-full h-screen py-10 px-6 flex flex-col md:items-center-safe md:justify-center-safe gap-10">
           <>
             <div className="w-full md:w-[860px] h-[500px] rounded-[10px] xl:bg-ShadowBG/50 flex xl:items-center-safe xl:justify-center-safe">
-              <div className="w-[775px] h-[450px] rounded-[10px] xl:bg-ShadowBG/50 xl:px-6 flex xl:items-center-safe xl:justify-center-safe">
+              <div className="w-full md:w-[775px] h-[450px] rounded-[10px] xl:bg-ShadowBG/50 xl:px-6 flex xl:items-center-safe xl:justify-center-safe">
                 <div
                   key={currentProduct.id}
                   className="flex flex-col w-[450px] md:w-full md:flex-row xl:justify-center-safe xl:items-center-safe gap-8"
